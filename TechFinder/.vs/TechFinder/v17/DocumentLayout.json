@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\productupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\productupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\productadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\productadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\wwwroot\\css\\add_pro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\wwwroot\\css\\add_pro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\wwwroot\\css\\emolyeenew.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\wwwroot\\css\\emolyeenew.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\categoriesadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\categoriesadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\wwwroot\\css\\employeeshow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\wwwroot\\css\\employeeshow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\dashboard\\customerupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\dashboard\\customerupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|c:\\users\\alshaheen\\desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\techfinder\\techfinder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA476FCE-DB18-4813-8EEF-CF0AA4BF846C}|TechFinder\\TechFinder.csproj|solutionrelative:techfinder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 169,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "TechFinder\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "TechFinder\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAEECAAAAAAAAAAAqwFACAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:38:52.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\OrderDetails.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\OrderDetails.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:52.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "productadd.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\productadd.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\productadd.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\productadd.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\productadd.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\ProductUpdate.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\ProductUpdate.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\ProductUpdate.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\ProductUpdate.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "products.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\products.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\products.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\products.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\products.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAA/wCUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "add_pro.css",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\add_pro.css",
+              "RelativeDocumentMoniker": "TechFinder\\wwwroot\\css\\add_pro.css",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\add_pro.css",
+              "RelativeToolTip": "TechFinder\\wwwroot\\css\\add_pro.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T22:38:53.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "emolyeenew.css",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\emolyeenew.css",
+              "RelativeDocumentMoniker": "TechFinder\\wwwroot\\css\\emolyeenew.css",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\emolyeenew.css",
+              "RelativeToolTip": "TechFinder\\wwwroot\\css\\emolyeenew.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T22:38:53.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "categoriesadd.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\categoriesadd.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\categoriesadd.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\categoriesadd.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\categoriesadd.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\Orders.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\Orders.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\Orders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "TechFinder\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "TechFinder\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAMEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T22:38:53.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\ProductDetails.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\ProductDetails.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "employeeshow.css",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\employeeshow.css",
+              "RelativeDocumentMoniker": "TechFinder\\wwwroot\\css\\employeeshow.css",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\wwwroot\\css\\employeeshow.css",
+              "RelativeToolTip": "TechFinder\\wwwroot\\css\\employeeshow.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T22:38:53.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "customerUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\customerUpdate.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Dashboard\\customerUpdate.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Dashboard\\customerUpdate.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Dashboard\\customerUpdate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TechFinder\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\AlShaheen\\Desktop\\dashboardpart_\u0660\u0667\u0662\u0665\u0661\u0664\\TechFinder\\TechFinder\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TechFinder\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:38:53.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

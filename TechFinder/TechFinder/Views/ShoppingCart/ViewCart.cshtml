@@ -1,0 +1,446 @@
+﻿@model IEnumerable<TechFinder.Models.ShoppingCart>
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+
+
+<div class="hh">
+    <div class="container-rr">
+        @if (Model != null && Model.Any()) // شرط وجود منتجات
+        {
+            <table>
+                <heade class="headera">
+                    <h6 class="ss">Your Shopping Cart <i class="fas fa-shopping-cart"></i></h6>
+               </heade>
+
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Unit Price</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="small-column">
+                                <img src="~/image/@item.Product.MainImage" alt="@item.Product.Name" />
+                            </td>
+                            <td>@item.Product.Name</td>
+                            <td>@item.Product.Price</td>
+                            <td>
+                                <div class="quantity-control">
+                                    <a asp-action="AddToQuantity" asp-route-id="@item.CartId" class="quantity-add-sub">+</a>
+                                    <span>@item.Quantity</span>
+                                    <a asp-action="subToQuantity" asp-route-id="@item.CartId" class="quantity-add-sub">-</a>
+                                </div>
+                            </td>
+                            <td>
+
+                                <span class="total-price">
+                                    @(item.Product.Price * item.Quantity)
+                                </span>
+
+                              
+                            </td>
+                            <td>
+                                <a href="@Url.Action("RemoveFromCart", "ShoppingCart", new { id = item.CartId })" class="button-action-de">Remove</a>
+                            </td>
+                        </tr>
+                    }
+
+                    <tr class="total-roww">
+                        <td colspan="4"><strong>Total:</strong></td>
+                        <td><span id="totalAmount">0.00</span></td>
+                        <td>
+                            <a href="@Url.Action("payment", "Payment")" class="button-chh">
+                                Checkout
+                                <img src="~/image/r.jpg" alt="Info">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+           
+
+            </table>
+
+            <a href="@Url.Action("Index", "Interface2")" class="buttonc">
+                <img src="~/image/p.jpg" alt="Home"> Continue Shopping
+            </a>
+        }
+        else
+        {
+            <!-- عرض رسالة عند عدم وجود منتجات -->
+            <div class="bodyss">
+                <div class="modalss">
+                    <p class="messagess"><strong>Your cart is empty... let’s fill it up!<br> Start your shopping journey and pick the products you love.</strong></p> <div class="progress-barss">
+                        <div class="progressss"></div>
+                    </div> 
+                        <div class="buttonsss">
+                        <a href="@Url.Action("Index", "Interface2")" class="buttonca">
+                            Start Shopping
+                        </a>
+      
+                         </div> 
+         </div>
+      </div>
+        }
+    </div>
+</div>
+
+
+    @section Scripts{
+    <style>
+
+        *{
+    font-family: 'Arial', sans-serif;
+    font-weight:bold;
+}
+
+
+
+.hh {
+    min-height: 90vh;
+}
+.container-rr {
+    width: 90%;
+    background-color: #fff;
+    border: #6A9AB0 solid 1px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    margin: 0 auto; /* هذا اللي يوسّط الجدول */
+    padding-bottom:5%;
+}
+
+
+
+.ss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*    height: 100%;*/
+    font-weight: bold;
+    color: #001F3F;
+    font-size: 30px;
+}
+
+table {
+      width: 90%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto; /* هذا اللي يوسّط الجدول */
+  
+    margin-bottom: 2%;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 15px;
+
+}
+
+
+
+table th {
+    background-color: #001F3F; 
+    color: #fff;
+}
+
+
+
+table tr:hover {
+    background-color: #f1f1f1;
+  
+
+}
+
+
+
+  
+.total-roww {
+    font-weight: bold;
+    background-color: #EAD8B1; 
+
+}
+
+
+
+
+
+
+.headera { display: flex;  align-items: center;  padding-bottom:-2%; margin-bottom:-2%}
+h6 {
+   /* margin-left: 40%;*/
+    font-size: 30px;
+    
+    font-family: 'Arial', sans-serif;
+}
+    /* صورة ايقونة السلة */
+.cart-icon{ 
+        width: 100px;
+        height: 100px; }
+
+
+
+
+
+
+.buttonc {
+  
+    /*  display: flex;*/
+    align-items: center;
+    /*  justify-content: space-between;*/
+    padding: 12px 12px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #3A6D8C;
+    transition: background-color 0.3s ease;
+    gap: 2px;
+    /*المسافة بين الصورة والنص */
+  
+    text-decoration: none;
+    margin:5%;
+    
+}
+
+
+        .buttonc:hover {
+            background-color: #6A9AB0;
+            color: white;
+        }
+
+    .buttonc img {
+        width: 20px; 
+        height: 20px;   
+    }
+
+
+
+    
+    
+    .buttonc.active {
+        background-color: #001F3F; 
+    
+    
+    }
+
+.button-chh {
+    margin: 2%;
+    /*    display: flex;*/
+    align-items: center;
+    /*justify-content: space-between;*/
+    padding: 12px 12px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #3A6D8C;
+    transition: background-color 0.3s ease;
+    gap: 2px; /* المسافة بين الصورة والنص */
+    /* margin-left: 30%;*/
+    text-decoration: none;
+    /* margin-bottom: 5px;*/
+    font-family: 'Arial', sans-serif;
+}
+    .button-chh img {
+        width: 20px; /* عرض الصورة */
+        height: 20px; /* ارتفاع الصورة */
+    }
+    .button-chh:hover {
+        background-color:#6A9AB0;
+        color:white;
+    }
+
+
+
+
+
+.button-action-de {
+    background-color: rgb(239, 32, 32);
+ 
+    border: 2px solid;
+    color: white;
+    /* font-weight: 700; */
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+        .button-action-de:hover {
+            background-color: red;
+            color: white;
+        }
+    
+/* -------------------------------------------- */
+    .quantity-control {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quantity-btn {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        padding: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 30px;
+        position: relative;
+    }
+
+    .quantity-btn .arrow {
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .quantity-btn .arrow-left {
+        position: absolute;
+        left: 3px;
+    }
+
+    .quantity-btn .arrow-right {
+        position: absolute;
+        right: 3px;
+    }
+
+    .quantity-input {
+        width: 50px;
+        text-align: center;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+   
+    /*------------------------------------*//**/
+
+.bodyss {
+    font-family: 'Arial', sans-serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.modalss {
+    color: #001f3f;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    /*width: 400px;*/
+    margin: 0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.messagess {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.progress-barss {
+    width: 40%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+   
+    margin: 0 auto;
+}
+
+.progressss {
+    width: 30%;
+    height: 100%;
+    background: red;
+}
+
+.buttonsss {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.buttonca {
+    /*  display: flex;*/
+    align-items: center;
+    /*  justify-content: space-between;*/
+    padding: 10px 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #3A6D8C;
+    transition: background-color 0.3s ease;
+    gap: 2px;
+    /*المسافة بين الصورة والنص */
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+
+    .buttonca:hover {
+        background-color: #6A9AB0;
+        color: white;
+    }
+
+    .buttonca img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+
+
+    .buttonca.active {
+        background-color: #001F3F;
+    }
+
+
+       .small-column img {
+            width: 80px;
+            height:50px;
+            border-radius: 10px;
+        }
+
+    .quantity-add-sub {
+        font-size:20px;
+        text-decoration:none;
+        color:white;
+            background-color: #6A9AB0;
+        padding: 0px 10px;
+        border-radius: 5px;
+    
+    }
+
+        .quantity-control span{
+            padding:7px;
+        }
+    </style>
+}

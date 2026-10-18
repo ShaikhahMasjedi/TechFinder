@@ -1,0 +1,76 @@
+﻿@model TechFinder.ViewModels.DashboardViewModel
+@Html.AntiForgeryToken()
+
+<div class="cardBox">
+    <div class="card">
+        <div>
+            <div class="numbers">
+                @Model.Users.Count(u => u.UserType == "Customer")
+            </div>
+            <div class="cardName">Total Customers</div>
+        </div>
+        <div class="iconBx">
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <div class="numbers">@Model.Orders.Count()</div>
+            <div class="cardName">Total Orders</div>
+        </div>
+        <div class="iconBx">
+            <i class="fa-solid fa-shopping-cart"></i>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <div class="numbers">@Model.Products.Count()</div>
+            <div class="cardName">Total Products</div>
+        </div>
+        <div class="iconBx">
+            <i class="fa-solid fa-box"></i>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <div class="numbers">@Model.TotalEarnings</div>
+            <div class="cardName">Earning</div>
+        </div>
+        <div class="iconBx">
+            <i class="fa-solid fa-money-bills"></i>
+        </div>
+    </div>
+</div>
+<div class="details">
+    <div class="Deals">
+        <div class="cardHeader">
+            <h2>Deals of Week</h2>
+        </div>
+        <table class="information-table-list table table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Discount</td>
+                    <td>Finally</td>
+                    <td>Update</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Products)
+                {
+                    if (item.DiscountRate != null && item.DiscountRate > 0)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td><i class="fa-solid fa-dollar-sign"></i> @item.Price.ToString()</td>
+                            <td>@item.DiscountRate <i class="fa-solid fa-percent fa-sm"></i></td>
+                            <td><i class="fa-solid fa-dollar-sign"></i> @((item.Price) * (1- item.DiscountRate / 100))</td>
+                            <td><a asp-action="ProductUpdate" asp-route-id="@item.ProductId" class="btn custom-btn text-white btn-sm">Update</a> </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

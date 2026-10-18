@@ -1,0 +1,43 @@
+﻿@model TechFinder.Models.User
+
+@{
+    ViewData["Title"] = "Edit User Profile";
+}
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="editUserProfile_container">
+    <div class="editUserProfile">
+        <h1>Edit User Profile</h1>
+        <form asp-action="EditUserProfile" method="post">
+            <div class="editUserProfile_input-group">
+                <i class="fas fa-user"></i>
+                <input asp-for="FullName" placeholder="User Name" required>
+            </div>
+
+            <div class="editUserProfile_input-group">
+                <i class="fas fa-envelope"></i>
+                <input asp-for="Email" placeholder="Email" required>
+            </div>
+
+            <div class="editUserProfile_input-group">
+                <i class="fas fa-lock"></i>
+                <input asp-for="Password" type="password" placeholder="Password"  required>
+            </div>
+
+            
+            <div class="editUserProfile_buttons">
+                <button type="submit" class="editUserProfile_btn">Save Changes</button>
+                <a asp-action="UserProfile" class="editUserProfile_btn">Go back</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+}

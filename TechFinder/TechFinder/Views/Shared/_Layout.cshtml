@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/css/add_pro.css" rel="stylesheet" />
+    <link href="~/css/show.css" rel="stylesheet" />
+    <link href="~/css/new.css" rel="stylesheet" />
+    <link href="~/css/detailsdashboard.css" rel="stylesheet" />
+    <link href="~/css/dashboard.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="~/css/nav_footerstyle.css" rel="stylesheet" />
+
+   
+    <title>@ViewData["Title"] - TechFinder</title>
+</head>
+<body>
+    @if (ViewBag.Header == "interfaceheader")
+    {
+        @await Html.PartialAsync("interfaceheader")
+        @RenderBody()
+    }
+    else
+    {
+        <div class="contanier">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a>
+                            <span class="icon">
+                                <img src="~/image/logo.png" />
+                            </span>
+                            <span class="title">Tech Finder</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="index">
+                            <span class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="employees">
+                            <span class="icon">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </span>
+                            <span class="title">Employees</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="customer">
+                            <span class="icon">
+                                <i class="fa-solid fa-user"></i>
+                            </span>
+                            <span class="title">Customers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="Orders">
+                            <span class="icon">
+                                <i class="fa-solid fa-boxes-stacked"></i>
+                            </span>
+                            <span class="title">Orders</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="products">
+                            <span class="icon">
+                                <i class="fa-solid fa-desktop"></i>
+                            </span>
+                            <span class="title">Products</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="categories">
+                            <span class="icon">
+                                <i class="fa-solid fa-folder-tree"></i>
+                            </span>
+                            <span class="title">Categories</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="Register" asp-controller="Account">
+                            <span class="icon">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            </span>
+                            <span class="title">Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <img src="~/image/menuline.png" />
+                    </div>
+                </div>
+                @RenderBody()
+            </div>
+        </div>
+    }
+    @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/js/dashboard.js"></script>
+    <script src="~/js/add_pro.js"></script>
+    <script src="~/js/pro_details.js"></script>
+    <script src="~/js/user_data.js"></script>
+
+</body>
+</html>

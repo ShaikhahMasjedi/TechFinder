@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f4f4f9;
+    color: #001F3F; 
+}
+
+.add-div {
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.detailsContent {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: #6A9AB0 solid 1px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+}
+.formtitle {
+    text-align: center;
+    color: #001F3F; 
+    margin-bottom: 50px;
+}
+.formfiled {
+    margin-bottom: 20px;
+}
+h2 {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #001F3F;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #001F3F;
+    font-weight: lighter;
+}
+.line {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6A9AB0;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.action_a , .action_a_secondry {
+    text-decoration:none;
+    padding: 15px 30px;
+    margin:10px 20px 0 0 ;
+    background-color: #3A6D8C; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action_a_secondry {
+    background-color: #fff; 
+    color: #3A6D8C;
+    border: 1px #3A6D8C solid;
+}
+
+.action_a:hover {
+    background-color: #6A9AB0; 
+}
+
+.Deals table tr td {
+    padding:10px;
+}

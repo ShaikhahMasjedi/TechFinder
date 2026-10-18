@@ -1,0 +1,82 @@
+﻿@model TechFinder.ViewModels.FavoriteViewModel
+@{
+    ViewData["Title"] = "Favorite";
+}
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="Favcontainer">
+    <h1>My Favorites</h1>
+
+    <!-- Favorites list -->
+    <div class="favorites-list">
+        @if (!Model.IsEmpty)
+        {
+            @foreach (var product in Model.FavoriteProducts)
+            {
+                <div class="favorite-item" onclick="window.location.href='@Url.Action("Details", "Product", new { id = product.ProductId })';">
+                    <div class="item-image">
+                        <img src="@Url.Content("~/image/" + product.MainImage)" alt="@product.Name" />
+                    </div>
+                    <div class="item-details">
+                        <h2>@product.Name</h2>
+
+                        <div class="Favrating">
+                            <span>@GetRatingStars((int)Model.ProductRatings[product.ProductId])</span>
+                            <span class="reviews">(@product.Reviews.Count Reviews)</span>
+                        </div>
+
+                        <p class="price">$@product.Price</p>
+                        <div class="item-actions">
+                            <form asp-action="AddToCart" method="post">
+                                <input type="hidden" name="productId" value="@product.ProductId" />
+                                <button type="submit" class="Favadd-to-cart-btn">
+                                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                                </button>
+                            </form>
+                            <form asp-action="RemoveFromFavorite" method="post" onsubmit="return confirm('Are sure you want to delet the product from your favorites');">
+                                <input type="hidden" name="productId" value="@product.ProductId" />
+                                <button type="submit" class="Favdelete-btn">
+                                    <i class="fas fa-trash"></i> Delete
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <!-- حالة الفراغ -->
+            <div class="empty-state">
+                <img src="~/image/emptybox.png" alt="Empty Box" class="empty-image">
+                <h2>Oops!</h2>
+                <p>Your favorites list is empty. Start adding some items!</p>
+            </div>
+        }
+    </div>
+
+</div>
+
+@functions {
+    string GetRatingStars(int rating)
+    {
+        return new string('★', rating) + new string('☆', 5 - rating);
+    }
+}
+
+@section Scripts{
+    <style>
+        .favorite-item{
+                width: calc(24.5% - 11px);
+        }
+    </style>
+}

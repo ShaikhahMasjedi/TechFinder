@@ -1,0 +1,111 @@
+﻿@model TechFinder.ViewModels.UserProfileViewModel
+@{
+    ViewData["Title"] = "UserProfile";
+}
+
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div id="UserProfile">
+    <div class="UserProfile_Container">
+        <div class="UserProfile_header">
+            <h1>User Information</h1>
+        </div>
+
+        <div class="UserProfile_user-info">
+            <div class="UserProfile_user-details">
+                <img src="~/image/user_photofile.jpg" alt="User Photo" class="profile-img">
+                <div class="UserProfile_user-text">
+                    <h2>@Model.User.FullName</h2>
+                    <p>@Model.User.CreatedAt.ToString("dd-MM-yyyy")</p>
+                </div>
+            </div>
+            <div class="UserProfile_edit_fav_btn">
+                <a asp-action="Favorite" class="UserProfile_favorite-btn">
+                    <i class="far fa-heart"></i>Favorite
+                </a>
+                <a asp-action="EditUserProfile" class="UserProfile_edit-btn"><i class="fas fa-edit"></i> Edit</a>
+            </div>
+        </div>
+
+        <!-- روابط التبديل -->
+        <div class="tabs">
+            <button class="tab-button active" data-target="basic-info">Basic Info</button>
+            <button class="tab-button" data-target="purchased-history">Purchased History</button>
+        </div>
+
+        <!-- المعلومات الأساسية -->
+        <section id="basic-info" class="section active">
+            <div class="UserProfile_info">
+                <div class="info-item">
+                    <label>User Name</label>
+                    <p>@Model.User.FullName</p>
+                </div>
+                <div class="info-item">
+                    <label>Email Address</label>
+                    <p>@Model.User.Email</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- تاريخ الطلبات -->
+        <section id="purchased-history" class="section">
+            <table class="UserProfile_table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Unit Price</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                        <th>Order Id</th>
+                        <th>Order Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.Orders)
+                    {
+                        foreach (var detail in order.OrderDetails)
+                        {
+                            <tr>
+                                <td>@detail.ProductName</td>
+                                <td>@detail.UnitPrice.ToString()</td>
+                                <td>@detail.Quantity</td>
+                                <td>$@detail.TotalPrice</td>
+                                <td>@order.OrderId</td>
+                                <td>@order.CreatedAt.ToString("dd-MM-yyyy")</td>
+                            </tr>
+                        }
+                        <!-- المجموع النهائي لكل طلب -->
+                        <tr class="UserProfile_order-total">
+                            <td colspan="3" ><strong>Order Total : $@order.TotalAmount</strong></td>
+                            <td colspan="3" ><strong>Payment Method:@order.PaymentMethod</strong></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <!-- المجموع النهائي لكل الطلبات -->
+            <div class="total-row">
+                <p><strong>Total for All Orders:</strong></p>
+                <p><strong>$@Model.Orders.Sum(o => o.TotalAmount)</strong></p>
+            </div>
+        </section>
+    </div>
+</div>
+ 
+@section Scripts{
+    <style>
+        table {
+            
+            margin-left: 0px;
+        }
+        a {
+            text-decoration:none;
+        }
+        a:hover {
+            color:white;
+        }
+    </style>
+}
+

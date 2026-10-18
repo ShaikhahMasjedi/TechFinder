@@ -1,0 +1,324 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+@model TechFinder.Models.User
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+@if (ViewData.ModelState.ErrorCount > 0)
+{
+    <div class="alert alert-danger text-center" role="alert">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p class="mb-0">@error.ErrorMessage</p>
+        }
+    </div>
+}
+
+    <div class="cart">
+
+    <div class="title-signup">
+        <p>SIGN UP</p>
+    </div>
+
+    <div class="signup-regester">
+        <a href="@Url.Action("Login", "Account")" target="_self" class="login">LOG IN</a>
+        <a href="@Url.Action("Register", "Account")" target="_self" class="sginup">SIGN UP</a>
+    </div>
+    <form asp-action="Register" method="post">
+        <input asp-for="FullName" placeholder="User name" class="user-name" id="user-name" autofocus>
+        <label  class="fa fa-user"></label>
+
+        
+        <input asp-for="Email" type="email" placeholder="Email" class="email" id="email">
+        <label class="fa fa-envelope"></label>
+       
+        <input asp-for="Password" type="password" placeholder="Password" class="password" id="password" required>
+        <label aclass="fa fa-lock"></label>
+        <label  class="fa fa-lock"></label>
+       <button type="submit" class="btn btn-custom-signup btn-sm">SIGN UP</button>
+
+
+    </form>
+					<span class="loginwith">Or Use</span>
+
+
+    <div class="google">
+        <i class="fab fa-google"></i>
+        <a href="">Google</a>
+    </div>
+    <div class="facebook">
+        <i class="fab fa-facebook"></i>
+        <a href="">Facebook</a>
+    </div>
+    <div class="footer-cart">
+        <a href="@Url.Action("Login", "Account")">LOG IN</a>
+    </div>
+</div>
+
+@section Scripts {
+    <style scoped>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none !important;
+            border: none;
+            font-family: Arial, sans-serif;
+            direction: ltr;
+        }
+
+        body {
+            background-color: #eee;
+        }
+
+        .cart {
+            width: 60%;
+            margin: 4% auto;
+            background-color: #fff;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            margin-bottom: 3.5%;
+            margin-top: 120px;
+        }
+
+        .title-signup {
+            width: 80%;
+            height: 50px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+            .title-signup p {
+                font-size: 35px;
+                text-align: center;
+                color: #001F3F;
+                margin-top: 1px;
+                font-weight: bold;
+            }
+
+        .signup-regester {
+            display: flex;
+            width: 50%;
+            border: 1px solid #3A6D8C;
+            border-radius: 15px;
+            margin: 20px auto;
+        }
+
+            .signup-regester a {
+                font-size: 18px;
+                padding: 2% 0%;
+                width: 50%;
+                text-align: center;
+                border-radius: 15px;
+            }
+
+            .signup-regester .sginup {
+                color: #001F3F;
+                box-shadow: 0 0 10px #001F3F;
+                background: linear-gradient(90deg,#eee,#6A9AB0);
+            }
+
+            .signup-regester .login {
+                color: #6A9AB0;
+                background-color: transparent;
+            }
+
+        .cart form {
+            margin-top: 7px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            position: relative;
+        }
+
+            .cart form input {
+                padding: 10px 40px;
+                box-shadow: .5px 2.5px 4.5px #001F3F;
+                background-color: white;
+                font-size: 18px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                color: #001F3F;
+                box-sizing: border-box;
+            }
+
+        .cart input::placeholder {
+            font-size: 1rem;
+            color: #001F3F;
+        }
+
+        .cart input:focus {
+            outline: 1px solid #001F3F;
+        }
+
+        .fa::before {
+            position: absolute;
+            left: 1.5%;
+            font-size: 21px;
+            color: #001F3F;
+        }
+
+        .fa-user::before {
+            top: 4%;
+        }
+
+        .fa-envelope::before {
+            top: 29%;
+        }
+
+        .fa-lock::before {
+            top: 53%;
+        }
+
+        form .email,
+        form .user-name,
+        form .password {
+            margin-bottom: 20px;
+        }
+
+
+        .btn-custom-signup {
+            width: 35%;
+            margin: 15px auto;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 15px;
+            border: none;
+            background-color: #3A6D8C;
+            padding: 5px;
+            cursor: pointer;
+            color: white;
+            outline: none;
+        }
+
+            .btn-custom-signup:hover {
+                background-color: #6A9AB0;
+                color: white;
+            }
+
+            .btn-custom-signup:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+        .link {
+            color: white;
+        }
+
+        .para {
+            color: gray;
+            font-size: 18px;
+        }
+
+        span {
+            color: gray;
+            font-size: 18px;
+            display: inline-block;
+            margin: 7px auto;
+            font-weight: 100;
+        }
+
+            span.loginwith {
+                display: block;
+                width: 100%;
+                margin-top: .5em;
+                white-space: nowrap;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &::before}
+
+        {
+            content: "";
+            display: inline-block;
+            width: 33%;
+            height: 1px;
+            background: #aaa;
+            vertical-align: middle;
+            margin-right: 5%;
+        }
+
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 33%;
+            height: 1px;
+            background: #aaa;
+            vertical-align: middle;
+            margin-left: 5%;
+        }
+
+        
+
+
+        .google,
+        .facebook {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: 10px auto;
+            padding: 5px 130px;
+            background-color: #3A6D8C;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #001F3F;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .facebook {
+            margin-bottom: 20px;
+        }
+
+            .google a,
+            .facebook a {
+                color: white;
+                font-size: 18px;
+                padding: 2%;
+            }
+
+            .google i,
+            .facebook i {
+                color: white;
+                font-size: 20px;
+                padding: 2% 8px;
+            }
+
+            .facebook:hover {
+                background-color: #6A9AB0;
+            }
+
+        .google:hover {
+            background-color: #6A9AB0;
+        }
+
+        .footer-cart {
+            display: flex;
+            width: auto;
+            margin: auto;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+            .footer-cart p {
+                margin-left: 10px;
+                color: #001F3F;
+            }
+
+            .footer-cart a {
+                color: #6A9AB0;
+                font-size: 20px;
+                font-weight: bold;
+            }
+    </style>
+    }
+}

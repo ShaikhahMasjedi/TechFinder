@@ -1,0 +1,21 @@
+﻿@model TechFinder.Models.User
+<div class="add-div">
+    <h1 class="formtitle">Employee Details</h1>
+        <div class="detailsContent">
+            <h2>Name:</h2>
+            <p>@Model.FullName</p>
+            <p class="line"></p>
+            <h2>Email:</h2>
+            <p>@Model.Email</p>
+            <p class="line"></p>
+            <h2>Password:</h2>
+            <p>@Model.Password</p>
+            <p class="line"></p>
+            <h2>Sign up date:</h2>
+            <p>@Model.CreatedAt.ToShortDateString()</p>
+            <div class="btns">
+            <button class="btn custom-btn-dupdate btn-sm"><a asp-action="employeeUpdate" asp-route-id="@Model.UserId">Update</a></button>
+            <button class="btn custom-btn-back btn-sm"><a asp-action="employees">Go Back</a></button>
+            </div>
+        </div>
+</div>

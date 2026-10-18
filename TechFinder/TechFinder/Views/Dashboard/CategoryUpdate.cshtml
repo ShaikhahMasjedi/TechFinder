@@ -1,0 +1,33 @@
+﻿@model Category
+<div class="add-div">
+    <h1 class="formtitle">Update Category</h1>
+    <form asp-action="CategoryUpdate" method="post" id="newemp" enctype="multipart/form-data">
+        <input type="hidden" asp-for="CategoryId" />
+        <div class="formfiled">
+            <label asp-for="Name">Name:</label>
+            <input type="text" asp-for="Name" name="Name" id="Name" required>
+        </div>
+        <div class="formfiled">
+            <label>Current Image</label>
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <img src="~/image/@Model.ImageUrl"
+                 class="img-thumbnail"
+                 style="max-width: 200px;" />
+            }
+            else
+            {
+                <span>No Image</span>
+            }
+
+        </div>
+        <div class="formfiled">
+            <label asp-for="ImageFile">Image:</label>
+            <input type="file" asp-for="ImageFile" name="ImageFile" id="ImageFile">
+        </div>
+        <div class="btns">
+            <button type="submit" class="btn custom-btn-add btn-sm">Save</button>
+            <button class="btn custom-btn-back btn-sm"><a asp-action="categories">Go Back</a></button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,26 @@
+﻿@model User
+<div class="add-div">
+    <h1 class="formtitle">Update Employee</h1>
+    <form asp-action="employeeUpdate" method="post" id="newemp">
+        <input type="hidden" asp-for="UserId" />
+        <input type="hidden" asp-for="CreatedAt" />
+        <input type="hidden" asp-for="Login" />
+        <input type="hidden" asp-for="UserType" />
+        <div class="formfiled">
+            <label asp-for="FullName">Name:</label>
+            <input type="text" asp-for="FullName" name="FullName" id="FullName"  required>
+        </div>
+        <div class="formfiled">
+            <label asp-for="Email">Email:</label>
+            <input type="email" asp-for="Email" name="email" id="name" required>
+        </div>
+        <div class="formfiled">
+            <label asp-for="Password">Password:</label>
+            <input type="text" asp-for="Password" name="Password" id="Password" required>
+        </div>
+        <div class="btns">
+            <button type="submit" class="btn custom-btn-add btn-sm">Save</button>
+            <button class="btn custom-btn-back btn-sm"><a asp-action="employees">Go Back</a></button>
+        </div>
+    </form>
+</div>

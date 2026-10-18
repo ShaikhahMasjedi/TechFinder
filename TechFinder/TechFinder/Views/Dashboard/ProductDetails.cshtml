@@ -1,0 +1,124 @@
+﻿@model TechFinder.Models.Product
+
+<div class="product-container">
+    <div class="product-images">
+        <img src="~/image/@Model.MainImage" alt="@Model.Name" id="main-image" class="img-fluid">        
+        <div class="thumbnail-images">
+            @if (!string.IsNullOrEmpty(Model.MainImage))
+            {
+                <img src="~/image/@Model.MainImage"
+                 alt="Thumbnail 1"
+                 class="thumbnail"
+                 onclick="changeImage('@Url.Content("~/image/" + Model.MainImage)')">
+            }
+            @if (!string.IsNullOrEmpty(Model.Extra1))
+            {
+                <img src="~/image/@Model.Extra1"
+                 alt="Thumbnail 2"
+                 class="thumbnail"
+                 onclick="changeImage('@Url.Content("~/image/" + Model.Extra1)')">
+            }
+            @if (!string.IsNullOrEmpty(Model.Extra2))
+            {
+                <img src="~/image/@Model.Extra2"
+                 alt="Thumbnail 3"
+                 class="thumbnail"
+                 onclick="changeImage('@Url.Content("~/image/" + Model.Extra2)')">
+            }
+        </div>
+    </div>
+    <div class="product-details">
+        <h1>@Model.Name</h1>
+        <p class="description">
+            @Model.Description
+        </p>
+        <p class="info">Price: <i class="fa-solid fa-dollar-sign"></i>@Model.Price</p>
+        <p class="info">Category: @Model.Category?.Name</p>
+        <p class="info">Quantity: @Model.Stock</p>
+        <div class="btns">
+            <button class="btn custom-btn-dupdate btn-sm">
+                <a asp-action="productUpdate" asp-route-id="@Model.ProductId" >Update</a></button>
+            <button class="btn custom-btn-back btn-sm"><a asp-action="products" >Go Back</a></button>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        function changeImage(imageSrc) {
+            document.getElementById('main-image').src = imageSrc;
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #001F3F;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border: #6A9AB0 solid 1px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-left:1.5%;
+            width:97%;
+        }
+
+        .product-images {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        #main-image {
+            max-width: 500px;
+            border-radius: 10px;
+            width: 400px;
+            height: 400px;
+        }
+
+        .thumbnail-images {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+
+        .thumbnail:hover {
+            border-color: #3A6D8C;
+        }
+
+        .product-details {
+            flex: 1;
+            padding-left: 10px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 10px 0 10px;
+            color: #001F3F;
+        }
+
+        .info {
+            font-size: 22px;
+            color: #3A6D8C;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+}

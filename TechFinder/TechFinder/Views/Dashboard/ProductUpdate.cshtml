@@ -1,0 +1,79 @@
+﻿@model TechFinder.Models.Product
+
+<div class="product-container">
+    <h1 class="pro_title">Update Product</h1>
+    <form id="productForm" asp-action="ProductUpdate" enctype="multipart/form-data">
+        <input type="hidden" asp-for="ProductId" />
+        <div class="form-group">
+            <label asp-for="Name">Product Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="Enter name of product" asp-for="Name" required>
+
+        </div>
+        <div class="form-group">
+            <label asp-for="CategoryId">Category</label>
+            <select asp-for="CategoryId" class="form-control"
+                    asp-items="@(new SelectList(ViewBag.Categories, "CategoryId", "Name"))">
+                <option value="">Select Category</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description">Description:</label>
+            <textarea type="text" id="Description" name="Description" placeholder="Enter description" rows="4" asp-for="Description" required></textarea>
+
+        </div>
+        <div class="num">
+            <div class="form-group">
+                <label asp-for="Price">Price:</label>
+                <input type="number" id="Price" asp-for="Price" name="Price" placeholder="Enter Price" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stock">Available Quantity:</label>
+                <input type="number" id="Stock" name="Stock" asp-for="Stock" placeholder="Enter quantity" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiscountRate">Discount:</label>
+                <input type="number" id="DiscountRate" name="DiscountRate" asp-for="DiscountRate" placeholder="Enter Discount" >
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Product Images:</label>
+            <div class="image-upload-group">
+                <div>
+                    <label asp-for="MainImageFile">Main Image</label>
+                    <input type="file" asp-for="MainImageFile" class="form-control" accept="image/*" />
+                    <img id="previewMainImage" src="#" alt="Main Image preview" class="image-preview">
+                </div>
+                <div>
+                    <label asp-for="Image2File">Extra Image 1:</label>
+                    <input type="file" asp-for="Image2File" class="form-control" accept="image/*" />
+                    <img id="previewExtraImage1" src="#" alt="Extra Image1 preview" class="image-preview">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image3File">Extra Image 2:</label>
+                    <input type="file" asp-for="Image3File" class="form-control" accept="image/*" />
+                    <img id="previewExtraImage2" src="#" alt="Extra Image2 preview" class="image-preview">
+                </div>
+            </div>
+        </div>
+        <div class="btns">
+            <button type="submit" class="btn custom-btn-add btn-sm">Save</button>
+            <button class="btn custom-btn-back btn-sm"><a asp-action="products">Go Back</a></button>
+        </div>
+
+    </form>
+</div>
+
+@section Scripts{
+    <style>
+        .product-container {
+            margin-left: 1.5%;
+            width: 97%;
+            display:block;
+            border:none;
+            box-shadow:none;
+        }
+        .pro_title {
+            margin-bottom:30px;
+        }
+    </style>
+}

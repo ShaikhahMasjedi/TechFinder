@@ -1,0 +1,19 @@
+﻿@model Category
+<div class="add-div">
+    <h1 class="formtitle">Create New Category</h1>
+    <form asp-action="categoriesadd" method="post" id="newemp" enctype="multipart/form-data">
+        <div class="formfiled">
+            <label asp-for="Name">Name:</label>
+            <input type="text" asp-for="Name" name="Name" id="Name" required>
+        </div>
+        <div class="formfiled">
+            <label asp-for="ImageFile">Upload Image</label>
+            <input type="file" asp-for="ImageFile" class="form-control" />
+        </div>
+        <div class="btns">
+            <button type="submit" class="btn custom-btn-add btn-sm">Save</button>
+            <button type="reset" class="btn custom-btn-reset btn-sm">Reset</button>
+            <button class="btn custom-btn-back btn-sm"><a asp-action="categories" >Go Back</a></button>
+        </div>
+    </form>
+</div>

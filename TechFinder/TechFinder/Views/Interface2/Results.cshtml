@@ -1,0 +1,285 @@
+﻿@model List<TechFinder.Models.Product>
+@{
+    ViewData["Title"] = "Search Result";
+}
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+    <h2>Search Results</h2>
+
+
+    <div class="products">
+        @foreach (var product in Model)
+        {
+            <div class="product-card">
+                <div class="image-container">
+                    <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                        <img src="~/image/@product.MainImage" alt="@product.Name" class="image" width="150px" height="150px">
+                    </a>
+                    <i class="heart-icon fas fa-heart" onclick="toggleFavorite(event, @product.ProductId)"></i>
+                </div>
+                <div class="product-title">@product.Name</div>
+                <div class="price">
+                    <span class="new-price">$@product.Price</span>
+                </div>
+                <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post">
+                    <input type="hidden" name="productId" value="@product.ProductId" />
+                    <button type="submit" class="cart-btn">
+                        <img src="~/image/sa.jpg" alt="cart">
+                        Add to Cart
+                    </button>
+                </form>
+            </div>
+        }
+    </div>
+
+
+
+@section Styles {
+
+  <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+    }
+
+
+.container-new{
+
+     display: flex; 
+    flex-wrap: wrap;
+     gap: 10px; 
+    min-height: 55vh;
+    padding: 10px;
+    background-color:white; 
+      width: 100%;
+     margin-top: 50px; 
+   
+   
+ 
+}
+
+.headera { display: flex;  align-items: center; margin-bottom: 30px;
+    margin-top: 20px; text-align: center;
+justify-content: center;} 
+   
+        
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+ }
+
+.product-card {
+  
+background:white;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+
+width: 250px;
+text-align: center;
+position: relative;
+}
+
+
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #001F3F;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+
+.product-card img {
+    
+width: 100%;
+border-radius: 10px;
+
+
+}
+.product-card  img:hover { transform: scale(1.1); } 
+.arrow { background-color: #ddd; border: none; font-size: 24px;
+padding: 10px; cursor: pointer; border-radius: 50%; margin: 0 10px; } 
+
+
+
+
+
+            .product-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+            }
+            .stars {
+            color: #FFD700;
+            margin-bottom: 5px;
+            }
+            .price {
+            font-size: 16px;
+            margin: 5px 0;
+            }
+            .new-price{
+                color: gray;
+            margin-left: 5px;
+
+            }
+            .old-price {
+            text-decoration: line-through;
+            color: gray;
+            margin-left: 5px;
+            }
+            .cart-btn {
+                background-color: #3A6D8C;
+
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: flex;
+            transition: background-color 0.3s;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            }
+            .cart-btn:hover {
+
+            background-color: #6A9AB0; 
+            }
+            .cart-btn img{
+                width: 25px;
+                height: 20px;
+
+            }
+
+            .heart-icone{
+                position: absolute;
+                font-size: 20px;
+            }
+            .heart-icone:hover{
+                color: red;
+            }
+  
+            
+
+
+           
+            .image-container {
+                position: relative; 
+                width: 220px;  
+                height: 150px; 
+            }
+
+            .image-container img {
+                width: 100%;
+                height: 100%; 
+                object-fit: cover;  
+            }
+
+            
+            .heart-icon {
+                font-size: 30px;
+                color: gray;  
+                cursor: pointer;
+                position: absolute; 
+                top: 10px;  
+                right: 10px; 
+                transition: color 0.3s ease; 
+            }
+
+            
+            .heart-icon.liked {
+                color: red;  
+            }
+
+
+
+            .button {
+                display: flex;
+                align-items: center;
+                padding: 6px 10px;
+                font-size: 16px;
+                color: white;
+                cursor: pointer;
+                border: 2px solid;
+                border-radius: 10px;
+                background-color: #3A6D8C;
+                transition: background-color 0.3s ease;
+                gap: 5px; 
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+
+
+                .button:hover {
+                    background-color: #6A9AB0;
+                }
+
+                .button img {
+                    width: 30px; 
+                    height: 30px; 
+                }
+
+    
+
+   
+
+
+
+        .button.active {
+            background-color: #001F3F;
+            transform: scale(0.95);
+        }
+
+        .button-ch {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 10px;
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+            border: 2px solid;
+            border-radius: 10px;
+            background-color: #3A6D8C;
+            transition: background-color 0.3s ease;
+            gap: 3px; 
+            margin-left: 28%;
+        }
+
+        .button-ch img {
+            width: 20px;
+            height: 20px; 
+        }
+
+        .button-ch:hover {
+            background-color: #6A9AB0;
+        }
+        
+
+    
+
+
+
+  </style>
+}
+
+@section Scripts {
+    <script src="~/js/favorite.js"></script>
+}

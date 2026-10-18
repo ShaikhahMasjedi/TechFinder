@@ -1,0 +1,128 @@
+﻿@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@inject TechFinder_storeContext _context
+
+@functions {
+    string GetRatingStars(double rating)
+    {
+        int fullStars = (int)Math.Round(rating);
+        return new string('★', fullStars) + new string('☆', 5 - fullStars);
+    }
+}
+
+
+@model TechFinder.ViewModels.categoryfav
+
+
+    <div class="category-details">
+    <h2 class="ss">@Model.Categories.Name</h2>
+        <div class="products">
+            @foreach (var product in Model.Categories.Products)
+            {
+                var reviews = _context.Reviews
+                .Where(r => r.ProductId == product.ProductId)
+                .ToList();
+
+                double avgRating = reviews.Any() ? reviews.Average(r => r.Rating) : 0;
+                int reviewCount = reviews.Count;
+                <div class="product-card">
+                    <div class="image-container">
+
+
+                        <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                            <img src="~/image/@product.MainImage" alt="@product.Name" class="image" width="150px" height="150px">
+                        </a>
+
+
+                        <form asp-action="AddToFavorite" asp-controller="Categories" method="post" style="display:inline;" id="favoriteForm">
+                            <input type="hidden" name="productId" value="@product.ProductId" />
+                            <button type="submit" style="background:none; border:none; padding:0; cursor:pointer;" title="Add to Favorites">
+                         @if (Model.UserFavorites.Contains(product.ProductId))
+                        {
+                                <i class="heart-icon fas fa-heart text-danger" onclick="toggleFavorite(event)"></i>
+                        }
+                        else{
+                              <i class="heart-icon fas fa-heart" onclick="toggleFavorite(event)"></i>
+
+                        }
+                            </button>
+                        </form>
+
+
+                    </div>
+                    <div class="product-title">@product.Name</div>
+                    <div class="price">
+                        <span class="new-price">$@product.Price</span>
+                    </div>
+                    <div class="rating">
+                        <span>@GetRatingStars(avgRating)</span>
+                        <span class="reviews">(@reviewCount Reviews)</span>
+                    </div>
+
+                <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post" onsubmit="showSpinner()">
+                    <input type="hidden" name="productId" value="@product.ProductId" />
+                    <button type="submit" class="btn cart-btn d-flex align-items-center justify-content-center" id="addToCartBtn">
+                        <img src="~/image/sa.png" alt="cart" style="width: 30px; height: 40px;">
+                        Add to Cart
+                    </button>
+                </form>
+
+                 
+                </div>
+            }
+        </div>
+    </div>
+    <button class="button" id="button1" onclick="location.href='@Url.Action("Index", "Interface2")';">
+        <img src="~/image/p.jpg" alt="Home">
+    </button>
+
+
+
+
+
+   
+
+
+@section Scripts {
+    <style>
+
+        .image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 5px 0 5px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s;
+        }
+    </style>
+}
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

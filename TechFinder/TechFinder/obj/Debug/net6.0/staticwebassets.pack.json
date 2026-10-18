@@ -1,0 +1,1081 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TechFinder.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TechFinder.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\add_pro.css",
+      "PackagePath": "staticwebassets\\css\\add_pro.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\backgroundimg.jpg",
+      "PackagePath": "staticwebassets\\css\\backgroundimg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\categorii.css",
+      "PackagePath": "staticwebassets\\css\\categorii.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\detailsDashboard.css",
+      "PackagePath": "staticwebassets\\css\\detailsDashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\editUserProfile.css",
+      "PackagePath": "staticwebassets\\css\\editUserProfile.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\favorite_page.css",
+      "PackagePath": "staticwebassets\\css\\favorite_page.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\feeces.css",
+      "PackagePath": "staticwebassets\\css\\feeces.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\nav_footerstyle.css",
+      "PackagePath": "staticwebassets\\css\\nav_footerstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\new.css",
+      "PackagePath": "staticwebassets\\css\\new.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\payment.css",
+      "PackagePath": "staticwebassets\\css\\payment.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\pro_details.css",
+      "PackagePath": "staticwebassets\\css\\pro_details.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\pro_details1.css",
+      "PackagePath": "staticwebassets\\css\\pro_details1.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\pro_detailsAdmn.css",
+      "PackagePath": "staticwebassets\\css\\pro_detailsAdmn.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\show.css",
+      "PackagePath": "staticwebassets\\css\\show.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\css\\user_data.css",
+      "PackagePath": "staticwebassets\\css\\user_data.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\AsusVivobookExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\AsusVivobookExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\AsusVivobookExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\AsusVivobookExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\AsusVivobookMain.jpg",
+      "PackagePath": "staticwebassets\\image\\AsusVivobookMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\DellVostroExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\DellVostroExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\DellVostroExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\DellVostroExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\DellVostroMain.jpg",
+      "PackagePath": "staticwebassets\\image\\DellVostroMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash1Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash1Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash1Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash1Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash2Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash2Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash2Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash2Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash3Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash3Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash3Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash3Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash4Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash4Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Flash4Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Flash4Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\FlashMain1.jpg",
+      "PackagePath": "staticwebassets\\image\\FlashMain1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\FlashMain2 (2).jpg",
+      "PackagePath": "staticwebassets\\image\\FlashMain2 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\FlashMain2.jpg",
+      "PackagePath": "staticwebassets\\image\\FlashMain2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\FlashMain3.jpg",
+      "PackagePath": "staticwebassets\\image\\FlashMain3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\FlashMain4.jpg",
+      "PackagePath": "staticwebassets\\image\\FlashMain4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HPpavilionlabtopExta1.jpg",
+      "PackagePath": "staticwebassets\\image\\HPpavilionlabtopExta1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HPpavilionlabtopExta2.jpg",
+      "PackagePath": "staticwebassets\\image\\HPpavilionlabtopExta2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HPpavilionlabtopMain.jpg",
+      "PackagePath": "staticwebassets\\image\\HPpavilionlabtopMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive5Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive5Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive5Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive5Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive6Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive6Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive6Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive6Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive7Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive7Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive7Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive7Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive8Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive8Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDrive8Extra2.jpg.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDrive8Extra2.jpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDriveMain5.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDriveMain5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDriveMain6.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDriveMain6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDriveMain7.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDriveMain7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HardDriveMain8.jpg",
+      "PackagePath": "staticwebassets\\image\\HardDriveMain8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone4extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone4extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone4extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone4extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone4main.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone4main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone5extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone5extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone5extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone5extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone5main.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone5main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone6extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone6extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone6extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone6extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone6main.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone6main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone7extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone7extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone7extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone7extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone7main.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone7main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone8extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone8extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone8extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone8extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Headphone8main.jpg",
+      "PackagePath": "staticwebassets\\image\\Headphone8main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HuaweiA12novaExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\HuaweiA12novaExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HuaweiA12novaExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\HuaweiA12novaExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HuaweiA12novaMain.jpg",
+      "PackagePath": "staticwebassets\\image\\HuaweiA12novaMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HuaweiPura70proExtra.jpg",
+      "PackagePath": "staticwebassets\\image\\HuaweiPura70proExtra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HuaweiPura70proExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\HuaweiPura70proExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\HuaweiPura70proMain.jpg",
+      "PackagePath": "staticwebassets\\image\\HuaweiPura70proMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MacbookairExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\MacbookairExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MacbookairExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\MacbookairExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MacbookairMain.jpg",
+      "PackagePath": "staticwebassets\\image\\MacbookairMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MicrosoftServiceExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\MicrosoftServiceExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MicrosoftServiceExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\MicrosoftServiceExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MicrosoftServiceMain.jpg",
+      "PackagePath": "staticwebassets\\image\\MicrosoftServiceMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse2Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse2Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse2Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse2Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse3Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse3Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse3Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse3Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse4Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse4Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse4Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse4Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse5Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse5Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse5Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse5Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse6Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse6Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse6Extra6.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse6Extra6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse7Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse7Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Mouse7Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Mouse7Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MouseMain2.jpg",
+      "PackagePath": "staticwebassets\\image\\MouseMain2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MouseMain3.jpg",
+      "PackagePath": "staticwebassets\\image\\MouseMain3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MouseMain4.jpg",
+      "PackagePath": "staticwebassets\\image\\MouseMain4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MouseMain5.jpg",
+      "PackagePath": "staticwebassets\\image\\MouseMain5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MouseMain6.jpg",
+      "PackagePath": "staticwebassets\\image\\MouseMain6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MouseMain7.jpg",
+      "PackagePath": "staticwebassets\\image\\MouseMain7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\MouseMain8.jpg",
+      "PackagePath": "staticwebassets\\image\\MouseMain8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet1Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet1Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet1Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet1Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet2Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet2Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet2Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet2Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet3Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet3Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet3Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet3Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet4Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet4Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet4Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet4Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet5Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet5Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet5Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet5Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet6Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet6Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet6Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet6Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet7Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet7Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet7Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet7Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet8Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet8Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Tablet8Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\Tablet8Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain1.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain2.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain3.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain4.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain5.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain6.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain7.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\TabletMain8.jpg",
+      "PackagePath": "staticwebassets\\image\\TabletMain8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\Visa.png",
+      "PackagePath": "staticwebassets\\image\\Visa.png"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\acerAspireExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\acerAspireExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\acerAspireExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\acerAspireExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\acerAspireMain.jpg",
+      "PackagePath": "staticwebassets\\image\\acerAspireMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\emptybox.png",
+      "PackagePath": "staticwebassets\\image\\emptybox.png"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\haedphone1extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\haedphone1extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\haedphone1main.jpg",
+      "PackagePath": "staticwebassets\\image\\haedphone1main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\headphone1extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\headphone1extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\headphone2extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\headphone2extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\headphone2extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\headphone2extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\headphone2main.jpg",
+      "PackagePath": "staticwebassets\\image\\headphone2main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\headphone3extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\headphone3extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\headphone3extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\headphone3extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\headphone3main.jpg",
+      "PackagePath": "staticwebassets\\image\\headphone3main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\iphone14plusExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\iphone14plusExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\iphone14plusExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\iphone14plusExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\iphone14plusMain.jpg",
+      "PackagePath": "staticwebassets\\image\\iphone14plusMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\iphone15proExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\iphone15proExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\iphone15proExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\iphone15proExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\iphone15proMain.jpg",
+      "PackagePath": "staticwebassets\\image\\iphone15proMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard1extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard1extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard1extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard1extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard1main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard1main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard2extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard2extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard2extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard2extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard2main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard2main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard3extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard3extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard3extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard3extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard3main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard3main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard4extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard4extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard4extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard4extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard4main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard4main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard5extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard5extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard5extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard5extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard5main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard5main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard6extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard6extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard6extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard6extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard6main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard6main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard7extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard7extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard7extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard7extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard7main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard7main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard8extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard8extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard8extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard8extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\keyboard8main.jpg",
+      "PackagePath": "staticwebassets\\image\\keyboard8main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\lenovoYogaSlim6Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\lenovoYogaSlim6Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\lenovoYogaSlim6Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\lenovoYogaSlim6Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\lenovoYogaSlim6Main.jpg",
+      "PackagePath": "staticwebassets\\image\\lenovoYogaSlim6Main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\master.png",
+      "PackagePath": "staticwebassets\\image\\master.png"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\menuline.png",
+      "PackagePath": "staticwebassets\\image\\menuline.png"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\mouseExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\mouseExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\mouseExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\mouseExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\mouseMain.jpg",
+      "PackagePath": "staticwebassets\\image\\mouseMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\mouseMain1.jpg",
+      "PackagePath": "staticwebassets\\image\\mouseMain1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\msiModren14Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\msiModren14Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\msiModren14Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\msiModren14Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\msiModren14Main.jpg",
+      "PackagePath": "staticwebassets\\image\\msiModren14Main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\oppoA3Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\oppoA3Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\oppoA3Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\oppoA3Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\oppoA3Main.jpg",
+      "PackagePath": "staticwebassets\\image\\oppoA3Main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\oppoA3proExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\oppoA3proExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\oppoA3proExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\oppoA3proExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\oppoA3proMain.jpg",
+      "PackagePath": "staticwebassets\\image\\oppoA3proMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\p.jpg",
+      "PackagePath": "staticwebassets\\image\\p.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\paypal.png",
+      "PackagePath": "staticwebassets\\image\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\r.jpg",
+      "PackagePath": "staticwebassets\\image\\r.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\sa.jpg",
+      "PackagePath": "staticwebassets\\image\\sa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\sa.png",
+      "PackagePath": "staticwebassets\\image\\sa.png"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\samsungGalaxyS42UltraExtra1.jpg",
+      "PackagePath": "staticwebassets\\image\\samsungGalaxyS42UltraExtra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\samsungGalaxyS42UltraExtra2.jpg",
+      "PackagePath": "staticwebassets\\image\\samsungGalaxyS42UltraExtra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\samsungGalaxyS42UltraMain.jpg",
+      "PackagePath": "staticwebassets\\image\\samsungGalaxyS42UltraMain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\samsungGalaxyZfleb6Extra1.jpg",
+      "PackagePath": "staticwebassets\\image\\samsungGalaxyZfleb6Extra1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\samsungGalaxyZfleb6Extra2.jpg",
+      "PackagePath": "staticwebassets\\image\\samsungGalaxyZfleb6Extra2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\samsungGalaxyZfleb6Main.jpg",
+      "PackagePath": "staticwebassets\\image\\samsungGalaxyZfleb6Main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\image\\user_photofile.jpg",
+      "PackagePath": "staticwebassets\\image\\user_photofile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\Interface.js",
+      "PackagePath": "staticwebassets\\js\\Interface.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\add_pro.js",
+      "PackagePath": "staticwebassets\\js\\add_pro.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\categories.js",
+      "PackagePath": "staticwebassets\\js\\categories.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\favorite_page.js",
+      "PackagePath": "staticwebassets\\js\\favorite_page.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\pro_details.js",
+      "PackagePath": "staticwebassets\\js\\pro_details.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\salapage.js",
+      "PackagePath": "staticwebassets\\js\\salapage.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\js\\user_data.js",
+      "PackagePath": "staticwebassets\\js\\user_data.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sami\\Desktop\\TechFinderProject\\TechFinder\\TechFinder\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TechFinder.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TechFinder.props",
+      "PackagePath": "build\\TechFinder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TechFinder.props",
+      "PackagePath": "buildMultiTargeting\\TechFinder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TechFinder.props",
+      "PackagePath": "buildTransitive\\TechFinder.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

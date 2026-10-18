@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Payment Success";
+}
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/payment.css" />
+}
+
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Payment Successful!',
+            text: '@TempData["SuccessMessage"]',
+            showConfirmButton: true,
+            confirmButtonColor: '#28a745'
+        });
+    </script>
+}
+
+<div class="success-container text-center">
+    <div class="success-icon">
+        <i class="fas fa-check-circle"></i>
+    </div>
+    <div class="success-title">Thank You!</div>
+    <div class="success-text">Your payment was completed successfully. We appreciate your trust in us!</div>
+    <a href="@Url.Action("Index", "Interface2")" class="btn-home">Back to Home</a>
+</div>
+
+@*@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}*@

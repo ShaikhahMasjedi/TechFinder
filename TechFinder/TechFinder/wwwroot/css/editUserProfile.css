@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #001F3F;
+}
+
+
+.editUserProfile_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:110px auto 0;
+ 
+}
+.editUserProfile {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:solid 1px #0056b3;
+    width: 80%;
+    max-width: 600px; 
+    text-align: center;
+}
+
+.editUserProfile h1 {
+    margin-bottom: 1.5rem;
+    color: #001F3F;
+}
+
+.editUserProfile_input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.editUserProfile_input-group i {
+    margin-right: 10px;
+    color: #888;
+}
+
+.editUserProfile_input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.editUserProfile_input-group :focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.editUserProfile_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.editUserProfile_btn {
+    background-color: #3A6D8C;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+    .editUserProfile_btn:hover {
+        background-color: #6A9Ab0;
+    }
+
+
+   
+

@@ -1,0 +1,23 @@
+﻿@model User
+<div class="add-div">
+    <h1 class="formtitle">Create New Customer</h1>
+    <form asp-action="customeradd" method="post" id="newemp">
+        <div class="formfiled">
+            <label asp-for="FullName">Name:</label>
+            <input type="text" asp-for="FullName" name="FullName" id="FullName" placeholder="Enter Full Name" required>
+        </div>
+        <div class="formfiled">
+            <label asp-for="Email">Email:</label>
+            <input type="email" asp-for="Email" name="email" id="name" placeholder="Enter email" required>
+        </div>
+        <div class="formfiled">
+            <label asp-for="Password">Password:</label>
+            <input type="password" asp-for="Password" name="password" id="password" placeholder="Enter password" required>
+        </div>
+        <div class="btns">
+            <button type="submit" class="btn custom-btn-add btn-sm">Save</button>
+            <button type="reset" class="btn custom-btn-reset btn-sm">Reset</button>
+            <button class="btn custom-btn-back btn-sm"><a asp-action="customer">Go Back</a></button>
+        </div>
+    </form>
+</div>

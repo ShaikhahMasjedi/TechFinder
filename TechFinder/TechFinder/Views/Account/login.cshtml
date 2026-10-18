@@ -1,0 +1,212 @@
+﻿@{
+    ViewData["Title"] = "login";
+}
+
+
+
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+@if (ViewData.ModelState.ErrorCount > 0)
+{
+    <div class="alert alert-danger text-center" role="alert">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p class="mb-0">@error.ErrorMessage</p>
+        }
+    </div>
+}
+
+
+
+    <div class="cart">
+
+
+        <div class="title-login">
+            <p>LOG IN</p>
+        </div>
+
+
+
+        <div class="login-regester">
+        <a href="@Url.Action("Login", "Account")" target="_self" class="login">LOG IN</a>
+        <a href="@Url.Action("Register", "Account")" target="_self" class="sginup">SIGN UP</a>
+    </div>
+        <form asp-controller="Account" asp-action="Login" method="post">
+            <input type="Email" name="email" placeholder="Email" class="email" id="email" required autofocus /><label class="fa fa-envelope"></label>
+          
+
+            <input  type="Password" name="password" placeholder="Password" class="password" id="password" required/>
+            <label class="fa fa-lock"></label>
+
+            <a href="@Url.Action("ForgotPassword", "Account")" class='fp'>forget password?</a>
+
+            
+                <button type="submit" class="btn custom-login-button btn-sm" onclick="history.back()">Login</button>
+           
+
+        </form>
+
+        <div class='footer-cart'>
+            <a asp-controller='Account' asp-action='Register'>SIGN UP</a>
+        </div>
+    </div>
+
+
+@section Scripts {
+
+    <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none !important;
+        border: none;
+        font-family: Arial, sans-serif;
+        direction: ltr;
+    }
+    body{
+        background-color: #eee;
+    }
+
+    .cart {
+        width: 60%;
+        height: 400px;
+        margin: 4% auto;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        margin-bottom: 3.5%;
+        margin-top:120px;
+    }
+    .title-login{
+        width: 80%;
+        height: 50px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .title-login p{
+        font-size: 35px;
+        text-align: center;
+        color: #001F3F ;
+        margin-top: 9px;
+        font-weight: bold;
+    }
+    .login-regester{
+        display: flex;
+        width: 50%;
+        border: 1px solid #3A6D8C ;
+        border-radius: 15px;
+        margin:20px auto;
+    }
+    .login-regester a{
+        font-size: 18px;
+        padding: 2% 0%;
+        width: 50%;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .login-regester .login{
+        color: #001F3F;
+        box-shadow: 0 0 10px #001F3F;
+        background: linear-gradient(90deg,#eee,#6A9AB0);
+    }
+    .login-regester .sginup{
+        color: #6A9AB0;
+        background-color: transparent;
+    }
+    .cart form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: relative;
+    }
+    .cart form input {
+          margin-bottom: 20px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        box-shadow: .5px 2.5px 4.5px #001F3F;
+        background-color: white;
+        font-size: 18px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        color: #001F3F;
+        box-sizing: border-box;
+    }
+    .cart input::placeholder {
+        font-size: 1rem;
+        color: #001F3F;
+    }
+    .cart input:focus {
+        outline: 1px solid #001F3F;
+    }
+    .cartd form .email {
+        margin-bottom: 15px;
+    }
+    .cart form .password {
+        margin-bottom: 5px;
+    }
+    .fa::before{
+        position: absolute;
+        left: 1.5%;
+        font-size: 21px;
+        color: #001F3F;
+    }
+    .fa-envelope::before{
+        top: 6.5%;
+    }
+    .fa-lock::before{
+        top: 35.5%;
+    }
+    .fp{
+        margin-top:7px;
+        margin-bottom:3px;
+        color: #6A9AB0;
+    }
+    .custom-login-button {
+        width: 35%;
+        margin: 15px auto;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+        background-color: #3A6D8C;
+        padding: 5px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+    }
+
+    .custom-login-button:hover {
+        color: white;
+        background-color: #6A9AB0;
+    }
+    .custom-login-button:focus {
+        outline: none; 
+        box-shadow: none; 
+    }
+
+    .footer-cart{
+        display: flex;
+        width: auto;
+        margin: auto;
+        margin-bottom:20px;
+        justify-content: center;
+    }
+    .footer-cart p{
+        margin-left: 10px;
+        color: #001F3F;
+    }
+    .footer-cart a{
+        color: #6A9AB0;
+        font-weight: bold;
+        font-size:20px;
+    }
+
+    </style>
+}

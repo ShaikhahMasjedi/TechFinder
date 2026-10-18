@@ -1,0 +1,130 @@
+.information-table-list {
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+    .information-table-list tbody tr td {
+        text-align: center;
+    }
+
+    .information-table-list td {
+        padding: 25px 40px;
+        font-weight: 500;
+    }
+
+        .information-table-list td a, btns a {
+            text-decoration: none;
+            color: white;
+            border-radius: 10px;
+            padding: 7px 10px;
+        }
+
+    .information-table-list, .information-table-list th, .information-table-list td {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-collapse: collapse;
+    }
+
+        .information-table-list thead {
+            font-size: 20px;
+        }
+
+            .information-table-list thead tr th {
+                font-weight: 700;
+                background-color: #001f3f;
+                color: white;
+                padding: 15px;
+            }
+
+.createbutton {
+    margin-top: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+.tableContanier table tbody tr:hover {
+    background-color: #d4daef;
+}
+
+.custom-btn-del {
+    background-color: rgb(239, 32, 32);
+    color:red;
+}
+
+.custom-btn-update {
+    background-color: #3a6d8c;
+}
+
+.custom-btn-reset {
+    background-color: #3a6d8c;
+    padding: 13px 40px;
+}
+
+.custom-btn-details {
+    background-color: #6a9ab0;
+}
+
+.custom-btn-add {
+    background-color: #001f3f;
+    color: white;
+    text-decoration: none;
+    padding: 13px 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+btns button {
+    padding: 15px 30px;
+    margin: 10px 20px 0 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.information-table-list tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.custom-btn {
+    background-color: #001f3f;
+    padding: 8px 20px;
+}
+
+.custom-btn-back {
+    background-color: white;
+    border: #3a6d8c solid 1px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.custom-btn-dupdate {
+    background-color: #3a6d8c;
+    color: white;
+    padding: 15px;
+}
+
+.custom-btn-back a {
+    text-decoration: none;
+    color: #3a6d8c;
+    font-weight: 500;
+    padding: 15px 25px;
+}
+
+.custom-btn-dupdate a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 15px 25px;
+}
+
+.custom-btn-back:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+.custom-btn-add:hover, .custom-btn-update:hover, .custom-btn-del:hover, .custom-btn-details:hover {
+    opacity: 50%;
+    cursor: pointer;
+}

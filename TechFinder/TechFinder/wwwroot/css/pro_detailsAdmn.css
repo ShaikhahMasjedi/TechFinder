@@ -1,0 +1,31 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit  {
+    background-color: #3A6D8C; 
+    color: #fff;
+    margin-right: 10px;
+
+}
+.delete{
+    color: #fff;
+    background-color: #ef2020;
+
+}
+.edit:hover {
+    background-color: #6A9AB0; 
+}
+.delete:hover{
+    background-color: #f54e4e;
+}
+.edit i,.delete i{
+    color: #fff;
+    margin-right: 8px;
+}
+.price{
+    margin-bottom: 20px;
+}
+

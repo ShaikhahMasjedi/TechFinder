@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TechFinder</title>
+     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="~/css/favorite_page.css" rel="stylesheet" />
+    <link href="~/css/pro_details1.css" rel="stylesheet" />
+    <link href="~/css/edituserprofile.css" rel="stylesheet" />
+    <link href="~/css/user_data.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/nav_footerstyle.css" />
+    <link rel="stylesheet" href="~/css/salapageitem.css"> 
+    <base href="~/" />
+    <link rel="stylesheet" href="~/css/categorii.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/css/feeces.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    @RenderSection("Styles", required: false)
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">  
+        <nav>
+
+            <div class="logo">
+                <img src="~/image/logo.png" alt="Logo">
+                <h3><a href="@Url.Action("Index", "Interface2")">TechFinder</a></h3>
+            </div>
+            <div class="navlist">
+                <ul>
+                    <li class="cate"><a href="@Url.Action("Index", "Interface2")">Home</a></li>
+                    <li class="dropdown">
+                        <div class="drop">
+                            <a href="#">Categories</a>
+                            <i class="fas fa-caret-down details-icons"></i>
+                        </div>
+                              @await Component.InvokeAsync("CategoryMenu")
+
+                    </li>
+                    <li class="cate"><a href="@Url.Action("Contactus", "Contact")">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                  <div class="search-container">
+                    <form asp-controller="Interface2" asp-action="Results" method="get" class="search-form">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input id="searchBox" type="text" name="searchQuery" placeholder="Search here"
+                               class="form-control" autocomplete="on" />
+                    </form>
+                    <div id="suggestions" class="autocomplete-suggestions"></div>
+                </div>
+
+
+                  <button class="login-btn" onclick="location.href='@Url.Action("Favorite", "Product")'">
+                <i class="fa-solid fa-heart"></i></button>
+                <button class="login-btn" onclick="location.href='@Url.Action("ViewCart", "ShoppingCart")'">
+                <i class="fa-solid fa-shopping-cart"></i></button>
+                <button class="register-btn" onclick="location.href='@Url.Action("UserProfile", "Product")'">
+                <i class="fa-solid fa-user"></i></button>
+
+
+
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img class="img" src="~/image/logo.png" alt="logo">
+                <h2 class="logo">TechFinder</h2>
+            </div>
+
+            <div class="footer-center">
+                <h3>Quick Links</h3>
+                <ul class="center">
+                    <li><a href="@Url.Action("Index", "Interface2")">Home</a></li>
+                    <li><a href="/Interface2/Index#categories-section">Categories</a></li>
+                    <li><a href="@Url.Action("Contactus", "Contact")">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <h3>Follow us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="last"><p>Copyright &copy; 2025. For TechFinder.</p></div>
+    </footer>
+
+
+    @RenderSection("Scripts", required: false)
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/pro_details.js"></script>
+    <script src="~/js/user_data.js"></script>
+    <script src="~/js/favorite_page.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/categories.js"></script>
+    <script src="~/js/Interface.js"></script>
+    <script src="~/js/salapage.js"></script>
+
+
+</body>
+
+
+</html>
+

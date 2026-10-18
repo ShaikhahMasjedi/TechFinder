@@ -1,0 +1,223 @@
+﻿@model TechFinder.ViewModels.InterfaceViewModel
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+<div class="white">
+    <div class="content">
+        <div class="hero_section" id="categories-section">
+            <div class="hero_text">
+                <h1>Welcome to <span style="font-style: italic; font-weight: bold; color:red;">TechFinder</span>!</h1>
+                <h5>The place that brings you everything </h5>
+                <h5>you need from advanced technology</h5>
+                <h5> at competitive prices.</h5>
+
+            </div>
+        </div>
+        <div class="container" >
+            <h2 class="title">Shop by Categories</h2>
+            <div class="carousel-container">
+                <button id="prev" class="arrow">&#8249;</button>
+                <div class="carousel">
+                    <div class="carousel-itemss">
+
+                        @foreach (var category in Model.Categories)
+                        {
+                            <img src="~/image/@category.ImageUrl" class="sizeimge" alt="@category.Name" data-id="@category.CategoryId" onclick="openCategoryProducts(this.getAttribute('data-id'))">
+                        }
+
+                    </div>
+                </div>
+                <button id="next" class="arrow">&#8250;</button>
+            </div>
+        </div>
+        <div class="container-deals-of-weekk">
+            <h2 class="ss"> Deals of the Week</h2>
+            <div class="products">
+                @foreach (var product in Model.OldestProducts)
+                {
+                    if (product.DiscountRate != null && product.DiscountRate > 0)
+                    {
+                        if (Model.UserFavorites.Contains(product.ProductId))
+                        {
+                            <div class="product-card">
+                                <div class="image-container">
+                                    <div class="on-sale">On Sale</div>
+                                    <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                                        <img src="~/image/@product.MainImage" alt="@product.Name" class="image" width="150px" height="150px">
+                                    </a>
+                                    <form asp-action="AddToFavorite" asp-controller="Interface2" method="post" style="display:inline;" id="favoriteForm">
+                                        <input type="hidden" name="productId" value="@product.ProductId" />
+                                        <button type="submit" style="background:none; border:none; padding:0; cursor:pointer;" title="Add to Favorites">
+                                            <i class="heart-icon fas fa-heart text-danger" onclick="toggleFavorite(event)"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="product-title">@product.Name</div>
+                                <div class="price">
+                                    <span style="color: red;">$@(product.Price * product.DiscountRate / 100)</span>
+                                    <span class="old-price">@product.Price </span>
+                                </div>
+                                <div class="rating">
+                                    <span>@GetRatingStars(product.Rating)</span>
+                                    <span class="reviews">(@product.Reviews.Count Reviews)</span>
+                                </div>
+                                <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post" onsubmit="showSpinner()">
+                                    <input type="hidden" name="productId" value="@product.ProductId" />
+                                    <button type="submit" class="btn cart-btn d-flex align-items-center justify-content-center" id="addToCartBtn">
+                                        <img src="~/image/sa.png" alt="cart" style="width: 30px; height: 40px;">
+                                        Add to Cart
+                                    </button>
+                                </form>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="product-card">
+                                <div class="image-container">
+                                    <div class="on-sale">On Sale</div>
+                                    <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                                        <img src="~/image/@product.MainImage" alt="@product.Name" class="image" width="150px" height="150px">
+                                    </a>
+                                    <form asp-action="AddToFavorite" asp-controller="Interface2" method="post" style="display:inline;" id="favoriteForm">
+                                        <input type="hidden" name="productId" value="@product.ProductId" />
+                                        <button type="submit" style="background:none; border:none; padding:0; cursor:pointer;" title="Add to Favorites">
+                                            <i class="heart-icon fas fa-heart" onclick="toggleFavorite(event)"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="product-title">@product.Name</div>
+                                <div class="price">
+                                    <span style="color: red;">$@(product.Price * (1-product.DiscountRate / 100))</span>
+                                    <span class="old-price">@product.Price</span>
+                                </div>
+                                <div class="rating">
+                                    <span>@GetRatingStars(product.Rating)</span>
+                                    <span class="reviews">(@product.Reviews.Count Reviews)</span>
+                                </div>
+                                <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post" onsubmit="showSpinner()">
+                                    <input type="hidden" name="productId" value="@product.ProductId" />
+                                    <button type="submit" class="btn cart-btn d-flex align-items-center justify-content-center" id="addToCartBtn">
+                                        <img src="~/image/sa.png" alt="cart" style="width: 30px; height: 40px;">
+                                        Add to Cart
+                                    </button>
+                                </form>
+                            </div>
+                        }
+                    }
+                }
+            </div>       
+        </div>
+        <div class="container-new">
+            <h1 class="ss">New Arrivals</h1>
+            <div class="products">
+                @foreach (var product in Model.LatestProducts)
+                {
+                    @if (Model.UserFavorites.Contains(product.ProductId))
+                    {
+                        <div class="product-card">
+                            <div class="image-container" >
+                                <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                                    <img src="~/image/@product.MainImage" alt="@product.Name"   >
+                                </a>
+
+                                <form asp-action="AddToFavorite" asp-controller="Interface2" method="post" style="display:inline;" id="favoriteForm">
+                                    <input type="hidden" name="productId" value="@product.ProductId" />
+                                    <button type="submit" style="background:none; border:none; padding:0; cursor:pointer;" title="Add to Favorites">
+                                        <i class="heart-icon fas fa-heart text-danger" onclick="toggleFavorite(event)"></i>
+                                    </button>
+                                </form>
+
+                            </div>
+                            <div class="product-title">@product.Name</div>
+                            <div class="price">
+                                <span class="new-price">$@product.Price </span>
+                            </div>
+                            <div class="rating">
+                                <span>@GetRatingStars(product.Rating)</span>
+                                <span class="reviews">(@product.Reviews.Count Reviews)</span>
+                            </div>
+
+
+                            <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post" onsubmit="showSpinner()">
+                                <input type="hidden" name="productId" value="@product.ProductId" />
+                                <button type="submit" class="btn cart-btn d-flex align-items-center justify-content-center" id="addToCartBtn">
+                                    <img src="~/image/sa.png" alt="cart" style="width: 30px; height: 40px;">
+                                    Add to Cart
+                                </button>
+                            </form>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="product-card">
+                            <div class="image-container">
+                                <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                                    <img src="~/image/@product.MainImage" alt="@product.Name">
+                                </a>
+                                <form asp-action="AddToFavorite" asp-controller="Interface2" method="post" style="display:inline;" id="favoriteForm">
+                                    <input type="hidden" name="productId" value="@product.ProductId" />
+                                    <button type="submit" style="background:none; border:none; padding:0; cursor:pointer;" title="Add to Favorites">
+                                        <i class="heart-icon fas fa-heart" onclick="toggleFavorite(event)"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="product-title">@product.Name</div>
+                            <div class="price">
+                                <span class="new-price">$@product.Price </span>
+                            </div>
+                            <div class="rating">
+                                <span>@GetRatingStars(product.Rating)</span>
+                                <span class="reviews">(@product.Reviews.Count Reviews)</span>
+                            </div>
+                            <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post" onsubmit="showSpinner()">
+                                <input type="hidden" name="productId" value="@product.ProductId" />
+                                <button type="submit" class="btn cart-btn d-flex align-items-center justify-content-center" id="addToCartBtn">
+                                    <img src="~/image/sa.png" alt="cart" style="width: 30px; height: 40px;">
+                                    Add to Cart
+                                </button>
+                            </form>
+                        </div>
+                    }
+                }
+            </div>          
+         </div>
+    </div>
+</div>
+          
+
+   
+@functions {
+    string GetRatingStars(double rating)
+    {
+        int fullStars = (int)Math.Round(rating); // تقريب التقييم
+        return new string('★', fullStars) + new string('☆', 5 - fullStars); // نجوم
+    }
+
+
+
+}
+
+@section Scripts {
+    <style>
+
+
+
+            .image-container {
+                width: 100%;
+                height: 200px;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px 5px 0 5px;
+                border-radius: 10px 10px 0 0;
+
+            }
+        img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                transition: transform 0.3s;
+        }
+    </style>
+}

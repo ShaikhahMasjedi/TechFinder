@@ -1,0 +1,158 @@
+﻿@model TechFinder.ViewModels.ProductDetailsViewModel
+
+@{
+    ViewData["Title"] = Model.Product.Name;
+}
+@{
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+    <!--  رسائل التأكيد -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-warning">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (TempData["ReviewSuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["ReviewSuccessMessage"]
+        </div>
+    }
+
+    <div class="product-container">
+    <!--صور المنتج-->
+        <div class="product-images">
+            <img src="@Url.Content("~/image/" + Model.Product.MainImage)" alt="Product Image" id="main-image">
+            <div class="thumbnail-images">
+                <img src="@Url.Content("~/image/" + Model.Product.MainImage)" alt="Thumbnail 1" class="thumbnail" onclick="changeImage('@Url.Content("~/image/" + Model.Product.MainImage)')">
+                <img src="@Url.Content("~/image/" + Model.Product.Extra1)" alt="Thumbnail 2" class="thumbnail" onclick="changeImage('@Url.Content("~/image/" + Model.Product.Extra1)')">
+                <img src="@Url.Content("~/image/" + Model.Product.Extra2)" alt="Thumbnail 3" class="thumbnail" onclick="changeImage('@Url.Content("~/image/" + Model.Product.Extra2)')">
+            </div>
+        </div>
+
+    <!--تفاصيل المنتج-->
+        <div class="product-details">
+            <h1>@Model.Product.Name</h1>
+            <p class="description">@Model.Product.Description</p>
+            <p class="price">Price: $@Model.Product.Price</p>
+            <div class="rating">
+                @*<span>★★★★☆</span>*@
+                <span>@GetRatingStars((int)Model.ProductRating)</span>
+                <span class="reviews">(@Model.Reviews.Count Reviews)</span>
+               
+            </div>
+        <!--الازرار-->
+            <div class="pro_btn">
+            <!--العربة-->
+                <form asp-action="AddToCartAndStay" method="post">
+                    <input type="hidden" name="productId" value="@Model.Product.ProductId" />
+                    <button type="submit" class="proadd-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </form>
+            <!--شراء الان-->
+            <form asp-action="BuyNow" method="post">
+                    <input type="hidden" name="productId" value="@Model.Product.ProductId" />
+                    <button type="submit" class="probuy-now"><i class="fas fa-credit-card"></i> Buy Now</button>
+                </form>
+                <!--المفضلة-->
+                <form asp-action="AddToFavorite" method="post">
+                    <input type="hidden" name="productId" value="@Model.Product.ProductId" />
+                    <button type="submit" class="proadd-to-favorite"><i class="fas fa-heart"></i> Add to Favorite</button>
+               </form>
+            </div>
+
+            <!-- مواقع التواصل -->
+            <div class="social-share">
+                <h3>Share this product:</h3>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- التعليقات -->
+    <div class="comments-section">
+        <h2>Comments</h2>
+
+        @foreach (var review in Model.Reviews)
+        {
+            var user = Model.Users.FirstOrDefault(u => u.UserId == review.UserId);
+            <div class="comment">
+                <div class="comment-header">
+                    <img src="@Url.Content("~/image/user_photofile.jpg")" alt="User" class="comment-avatar">
+                    <p class="comment-author">@user?.FullName</p>
+                    <p class="comment-date">@review.CreatedAt.ToShortDateString()</p>
+                </div>
+                <p class="comment-rating">@GetRatingStars(review.Rating)</p>
+                <p class="comment-text">@review.Comment</p>
+            </div>
+        }
+
+        <!-- إضافة تعليق جديد -->
+        <div class="add-comment">
+            <h3>Add a Comment</h3>
+            <form asp-action="AddReview" method="post">
+                <input type="hidden" name="productId" value="@Model.Product.ProductId" />
+                <textarea name="comment" placeholder="Write your comment..." required ></textarea>
+                <div class="rating-input">
+                    <label>Rating:</label>
+                    <select name="rating" required>
+                        <option value="">Select Rating</option>
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="1">★☆☆☆☆</option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- المنتجات المشابهة -->
+    <div class="related-products">
+        <h2>Similar Products</h2>
+        <div class="related-products-grid">
+            @foreach (var product in Model.SimilarProducts)
+            {
+                <div class="related-product">
+                    <a asp-action="Details" asp-route-id="@product.ProductId">
+                        <img src="@Url.Content("~/image/" + product.MainImage)" alt="@product.Name">
+                        <h3>@product.Name</h3>
+                        <div class="rating">
+                            @*<span>★★★★☆</span>*@
+                            <span>@GetRatingStars((int)Model.ProductRatings[product.ProductId])</span>
+                            <span class="reviews">(@product.Reviews.Count Reviews)</span>
+                        </div>
+                        <p class="related-price">$@product.Price</p>
+                        
+                    </a>
+                    
+                </div>
+            }
+        </div>
+    </div>
+@functions {
+    string GetRatingStars(int rating)
+    {
+        return new string('★', rating) + new string('☆', 5 - rating);
+    }
+}
+@section Scripts {
+    <style>
+        a {
+            text-decoration:none;
+        }
+    </style>
+}
