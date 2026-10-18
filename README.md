@@ -46,4 +46,6 @@ TechFinder bridges the gap between tech enthusiasts and electronics retailers. T
 ---
 
 ## 🛠️ Technologies Used
-*(يمكنك تعديل هذا القسم بحسب التقنيات الفعلية المستخدمة في مشروعك مثل: HTML, CSS, JavaScript, PHP, Laravel, MySQL, etc.)*
+* **Framework:** ASP.NET Core MVC
+* **Database:** Microsoft SQL Server
+* **Language:** C# , HTML, CSS, JavaScript, Bootstrap
